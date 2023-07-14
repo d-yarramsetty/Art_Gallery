@@ -1,0 +1,279 @@
+.container{
+  width: 100%;
+  min-height: 90vh;
+  /* background: linear-gradient(45deg,#046b10, #e14e42); */
+  /* background-image: url(pexels-jakub-novacek-924824.jpg); */
+  /* opacity: 0.9; */
+  color: #fff;
+  font-family: lato;
+  /* position: relative; */
+  border-radius: 25px;
+  /* box-shadow: 0px 0px 25px rgb(7, 72, 235); */
+}
+.body{
+  background-image: url(pexels-mnm-zameer-3308588.jpg);
+}
+.s1{
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  text-align: center;
+  margin-top: -35px;
+  padding: 5%;
+  margin-right: 10px;
+  transition: all 0.3s;
+}
+.s1:hover{
+  transform: scale(1.15);
+}
+
+.s2{
+  color: aliceblue;
+  text-align: center;
+  padding: 5%;
+  margin-right: 10px;
+  transition: all 0.3s;
+  font-family: lato;
+  border-radius: 25px;
+  background-color: transparent;
+  box-shadow: 0px 0px 15px yellow;
+}
+.s2:hover{
+  transform: scale(1.15);
+}
+
+.s{
+  margin-left: 500px;
+  border-radius: 25px;
+  background-color: #22046b;
+  margin-right: 500px;
+  text-align: center;
+  padding: 6px;
+  transition: all 0.3s;
+  box-shadow: 0px 0px 25px rgb(238, 71, 71);
+  
+}
+.s a{
+  text-decoration: none;
+  color: rgb(232, 245, 245);
+  font-size: larger;
+}
+.s:hover{
+  transform: scale(1.15);
+  color: #e14e42;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgb(238, 244, 251);
+}
+
+.row{
+  width: 80%;
+  min-height: 50vh;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col{
+  margin: 20px 0;
+  flex-basis: 50%;
+  min-width: 300px;
+  /* height: 70%;      */
+  position: relative;
+}
+
+
+.text-box h1{
+  max-width: 400px;
+  margin-top: 50px;
+  margin-left: 50px;
+  transition: all 0.3s;
+}
+.box{
+  max-width: 250px;
+  margin-top: 100px;
+  margin-left: 50px;
+  transition: all 0.3s;
+}
+.text-box h1:hover{
+  transform: scale(1.15);
+}
+
+.logo{
+  width: 200px;
+  cursor: pointer;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  transition: all 0.3s;
+  border-radius: 25px;
+  background-color: transparent;
+  box-shadow: 0px 0px 15px yellow;
+}
+.logo:hover{
+  transform: scale(1.15);
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+  transition: all 0.3s;
+}
+.x{
+  background-color: transparent;
+  border-radius: 40px;
+  padding: 5px;
+  box-shadow: 0px 0px 1000px rgb(235, 235, 117);
+}
+nav ul li:hover{
+  transform: scale(1.15);
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 32px;
+  padding: 5px;
+}
+
+nav ul li a:hover{color: yellow;}
+
+.circle{
+  width: 350px;
+  position: absolute;
+  top: 15px;
+  left: -50px;
+  opacity: 0.5;
+  transform: rotate(45deg);
+}
+
+/* .square{
+  width: 350px;
+  position: absolute;
+  top: 40px;
+  left: 55px;
+  opacity: 0.2;
+  transform: rotate(45deg);
+} */
+
+.sq{
+  width: 30px;
+  position: absolute;
+  margin-top: -96px;
+  left: -50px;
+  opacity: 0.7;
+  transform: rotate(45deg);
+}
+.cr1{
+  width: 30px;
+  position: absolute;
+  margin-top: -75px;
+  left: -30px;
+  opacity: 0.7;
+  transform: rotate(45deg);
+}
+.cr2{
+  width: 30px;
+  position: absolute;
+  margin-top: -55px;
+  left: -50px;
+  opacity: 0.7;
+  transform: rotate(45deg);
+}
+.cr3{
+  width: 30px;
+  position: absolute;
+  margin-top: -75px;
+  left: -70px;
+  opacity: 0.7;
+  transform: rotate(45deg);
+}
+.copyright{
+  text-align: center;
+  margin-top: 45px;
+  padding: 5px;
+  background-color: transparent;
+  color: aliceblue;
+  box-shadow: 0px 0px 35px rgb(255, 255, 255);
+}
+.navbar{
+  margin-top: 25px;
+  /* height:60px; */
+  /* width: 100%; */
+  /* position: static;  */
+  /* background-color: #e14e42; */
+}
+
+.fade-in{
+  animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.c{
+  display: flex;
+  flex-wrap: wrap;
+  height: 370px;
+  margin: 35px;
+  box-shadow: 5px 5px 30px black;
+  border-radius: 10px;
+}
+
+.c img{
+  margin-top: 70px;
+  height: 300px;
+  width: 300px;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.intro{
+  height: 70px;
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #fff;
+  position: absolute;
+  background: rgb(27,27,27);
+  color: #fff;
+  transition: .5s;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  margin: 20px;
+  font-size: 20px;
+  visibility: hidden;
+  opacity: 0;
+}
+.c:hover{
+  cursor: pointer;
+}
+
+.c:hover .intro{
+  height: 370px;
+  background: rgb(50, 49, 49);
+}
+
+.c:hover p{
+  opacity: 1;
+  visibility: visible;
+}
+.c:hover img{
+  transform: scale(1.15);
+}
+
+.co{
+  display: flex;
+  flex-wrap: wrap;
+}
